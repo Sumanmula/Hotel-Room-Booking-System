@@ -11,7 +11,62 @@ The project contains:
   4. Managing reservations efficiently by preventing double-booking and keeping track of all bookings made.
   5. Providing a clear and structured way to update room details and track guest information.
 
+# FEATURES
+Here are the features of the Simple Hotel Management System project:
+
+🔹 Guest Management
+
+* Add a new guest with name and phone number.
+* Generate OTP for a guest's phone number.
+* Validate OTP for secure verification.
+* Maintain a list of all registered guests.
+
+🔹 Room Management
+
+* Add rooms with room number, type (Single, Double, Deluxe), and price.
+* Update room type and price.
+* Get a list of all rooms.
+* Check availability of rooms.
+* Filter rooms by specific `RoomType`.
+
+🔹 Hotel Management
+
+* Create a hotel with a name.
+* Associate a list of rooms with the hotel.
+
+🔹 Reservation Management
+
+* Create reservations for guests.
+* Check room availability for a given date range before booking.
+* Store and retrieve all reservations.
+* Prevent double-booking of the same room.
+
+🔹 Booking Flow
+
+* Guests verify identity with OTP before booking.
+* Only available rooms matching the requested room type are shown.
+* Booking is confirmed only if the room is available for the specified period.
+
+🔹 Data Validation and Availability
+
+* Validate guest details and OTP before confirming reservation.
+* Automatically update room availability upon booking.
+
+
 # PROJECT STRUCTURE
 ![Project Structure](Image/ProjectStructure.png)
+
+# OUTPUT
 ![OUTPUT](Image/Output.png)
+
+# 🛠️ How to Run
+
+✅ Requirements :
+- Java 8 or higher
+- Command Line Terminal or IDE (e.g. VS Code, IntelliJ)
+
+▶️ Run via Terminal :
+Navigate to the folder containing HotelManagement/:
+   ```bash
+   cd path/to/Java
 
