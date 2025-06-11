@@ -12,3 +12,6 @@ The project contains:
   5. Providing a clear and structured way to update room details and track guest information.
 
 # PROJECT STRUCTURE
+![Project Structure](Image/ProjectStructure.png)
+![OUTPUT](Image/Output.png)
+
